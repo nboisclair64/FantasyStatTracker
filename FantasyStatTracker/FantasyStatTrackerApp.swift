@@ -11,7 +11,7 @@ import SwiftUI
 struct FantasyStatTrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environment(RetrievePlayerAPIData())
         }
     }
 }
